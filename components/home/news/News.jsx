@@ -24,7 +24,7 @@ const News = ({ title, news }) => {
                         </div>
                     ))}
                     <div className="news__item news__button">
-                        <ButtonLink children={"See more news"} href={ROUTES.NEWS.getPath(year)} />
+                        <ButtonLink href={ROUTES.NEWS.getPath(year)}>See more news</ButtonLink>
                     </div>
                 </div>
             </div>
